@@ -1,0 +1,2 @@
+# ルートに .gitattributes を作成・編集
+echo "* text=auto eol=lf" >> .gitattributes

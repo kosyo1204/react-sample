@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import { Parent } from './components/UseCallback';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
+  // 不適切なコードを検知するためのヘルパー
   <React.StrictMode>
-    <App />
+    {/* <Counter initialValue={0} /> */}
+    <Parent />
   </React.StrictMode>
 );
 
