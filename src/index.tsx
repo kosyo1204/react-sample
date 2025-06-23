@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { Parent } from './components/UseCallback';
+import { Clock } from './components/Clock';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -11,7 +11,8 @@ root.render(
   // 不適切なコードを検知するためのヘルパー
   <React.StrictMode>
     {/* <Counter initialValue={0} /> */}
-    <Parent />
+    {/* <UseMemoSample /> */}
+    <Clock />
   </React.StrictMode>
 );
 
