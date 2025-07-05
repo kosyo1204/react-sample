@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { Clock } from './components/Clock';
+import { ImageUploader } from './components/ImageUploader';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     {/* <Counter initialValue={0} /> */}
     {/* <UseMemoSample /> */}
-    <Clock />
+    <ImageUploader />
   </React.StrictMode>
 );
 
